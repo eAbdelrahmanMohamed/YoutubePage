@@ -1,0 +1,58 @@
+       html {
+           margin: 0px;
+           padding: 0px;
+       }
+       
+       #list {
+           position: absolute;
+           transform: translate(15%, 30px);
+           width: 300px;
+       }
+       
+       #video {
+           position: absolute;
+           transform: translate(85%, 30px);
+           width: 1000px
+       }
+       
+       body {
+           background-color: #f9f9f9;
+       }
+       
+       #search {
+           margin-left: 35%;
+           display: inline-block;
+       }
+       
+       #search input {
+           height: 40px;
+           width: right: 0px;
+       }
+       
+       #search button {
+           height: 40px;
+           padding: 2px;
+           left: 0px;
+       }
+       
+       #links a {
+           position: absolute;
+           display: inline-block;
+           left: 0%;
+           top: 100px;
+           text-decoration: none;
+       }
+       
+       img {
+           position: absolute;
+           top: 0px;
+           right: 5%;
+           margin-left: 90%;
+           max-width: 100px;
+       }
+       
+       header {
+           display: flex;
+           justify-content: space-between;
+           background-color: white;
+       }
